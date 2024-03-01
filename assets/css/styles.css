@@ -11,10 +11,40 @@ h1{
 
 /* Background image */
 
-.background-img{
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.image-container img{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    height: 25vh;
     width: 100vw;
+    display: block;
+}
+
+.headings {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    margin-right: 20px;
+
+}
+
+.headings h1 {
+    overflow-y: hidden;
+}
+
+.headings h2 {
+    overflow-y: hidden;
+}
+
+/* Change display of background image on larger screens */
+@media(min-width:992px){
+    .image-container img{
+        height: 75vh;
+    }
 }
