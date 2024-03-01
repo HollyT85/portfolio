@@ -5,9 +5,6 @@
     overflow-x: hidden;
 }
 
-h1{
-    font-family: 'Love Plants', sans-serif;
-}
 
 /* Background image */
 
@@ -35,10 +32,13 @@ h1{
 }
 
 .headings h1 {
+    font-family: 'Love Plants', sans-serif;
+    font-size: 8vw;
     overflow-y: hidden;
 }
 
 .headings h2 {
+    font-family: "Annapurna SIL", serif;
     overflow-y: hidden;
 }
 
