@@ -42,6 +42,20 @@
     overflow-y: hidden;
 }
 
+/* Icons and nav links */
+
+i {
+    margin: 10px 20px;
+    color: black;
+    overflow: hidden;
+}
+
+.nav-link {
+    color: black !important;
+    font-family: "Annapurna SIL", serif;
+    margin-left: 10px;
+}
+
 /* Change display of background image on larger screens */
 @media(min-width:992px){
     .image-container img{
