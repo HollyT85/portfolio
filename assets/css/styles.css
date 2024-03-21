@@ -81,9 +81,9 @@ i {
 
 /* Skills */
 
-/* .skill-section {
-    
-} */
+.skill-section {
+    text-align: center;
+}
 
 .skill-logos {
     max-width: 100px;
