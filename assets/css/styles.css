@@ -45,9 +45,10 @@
 }
 
 .about-heading {
-    font-family: "Annapurna SIL", serif;
+    font-family: "Love Plants", serif;
     overflow-y: hidden;
     text-align: center;
+    margin-top: 10px;
 }
 
 /* Icons and nav links */
@@ -67,8 +68,15 @@ i {
 /* Change display of background image on larger screens */
 @media(min-width:992px){
     .image-container img{
-        height: 75vh;
+        height: 70vh;
     }
+}
+
+/* about */
+.about-info {
+    background-color: #EFEFEF;
+    text-align: center;
+    font-family: "Annapurna SIL", serif;
 }
 
 /* footer */
