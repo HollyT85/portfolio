@@ -5,3 +5,5 @@ Photo by Andreea Ch: https://www.pexels.com/photo/green-potted-plant-on-white-ce
 #EFEFEF
 #E9E9E9
 #66661F
+
+https://realfavicongenerator.net/favicon_result?file_id=p1hphfb1fd1nup1vn7hui4mbd4j6
