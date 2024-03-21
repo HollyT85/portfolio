@@ -44,7 +44,7 @@
     overflow-y: hidden;
 }
 
-.about-heading {
+.category-headings {
     font-family: "Love Plants", serif;
     overflow-y: hidden;
     text-align: center;
@@ -73,7 +73,7 @@ i {
 }
 
 /* about */
-.about-info {
+.category-info {
     background-color: #EFEFEF;
     text-align: center;
     font-family: "Annapurna SIL", serif;
