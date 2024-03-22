@@ -44,6 +44,19 @@
     overflow-y: hidden;
 }
 
+h1 {
+    color: #66661F;
+}
+
+.category-headings h2{
+    font-size: 50px;
+    color: #66661F;
+}
+
+h2 {
+
+}
+
 .category-headings {
     font-family: "Love Plants", serif;
     overflow-y: hidden;
