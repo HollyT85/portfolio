@@ -123,3 +123,9 @@ footer {
 .projects{
     display: flex;
 }
+
+.project-info{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+}
