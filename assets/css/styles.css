@@ -84,6 +84,12 @@ i {
     .image-container img{
         height: 70vh;
     }
+    .headings h1 {
+        font-size: 4vw;
+    }
+    .category-headings h2 {
+        font-size: 4vw;
+    }
 }
 
 /* about */
