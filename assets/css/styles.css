@@ -79,7 +79,7 @@ i {
     margin-left: 10px;
 }
 
-/* Change display of background image on larger screens */
+/* Change display on larger screens */
 @media(min-width:992px){
     .image-container img{
         height: 70vh;
@@ -116,4 +116,10 @@ i {
 /* footer */
 footer {
     text-align: center;
+}
+
+/* Project Page */
+
+.projects{
+    display: flex;
 }
