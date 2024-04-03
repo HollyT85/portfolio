@@ -48,21 +48,24 @@ h1 {
     color: #66661F;
 }
 
+.category-headings {
+    font-family: "Love Plants", serif;
+    overflow-y: hidden;
+    text-align: center;
+    margin-top: 10px;
+}
+
 .category-headings h2{
     font-size: 8vw;
     color: #66661F;
     overflow: hidden;
 }
 
-h2 {
-
-}
-
-.category-headings {
+.projects h3 {
     font-family: "Love Plants", serif;
-    overflow-y: hidden;
-    text-align: center;
-    margin-top: 10px;
+    font-size: 6vw;
+    color: #66661F;
+    margin: auto;
 }
 
 /* Icons and nav links */
@@ -130,6 +133,12 @@ footer {
     max-width: 80vw;
     margin: 10px auto;
 }
+
+.projects p {
+    font-family: "Annapurna SIL", serif;
+    margin: auto;
+}
+
 
 /* large screen project page */
 @media(min-width:992px){
