@@ -120,12 +120,19 @@ footer {
 
 /* Project Page */
 
+/* .projects{
+    display: flex;
+} */
+
 .projects{
     display: flex;
+    flex-flow: wrap;
+    align-content: center;
 }
 
-.project-info{
-    display: flex;
-    flex-direction: column;
-    align-content: flex-start;
+.projects img{
+    max-width: 40vw;
+    margin: 20px;
 }
+
+
