@@ -11,6 +11,10 @@ a{
     font-family: "Annapurna SIL", serif;
 }
 
+a:hover {
+    color:#66661F;
+}
+
 /* Background image */
 
 .image-container {
@@ -68,7 +72,7 @@ h1 {
 
 .projects h3 {
     font-family: "Love Plants", serif;
-    font-size: 4vw;
+    font-size: 8vw;
     color: #66661F;
     margin: auto;
     overflow-y: hidden;
@@ -87,6 +91,7 @@ i {
     font-family: "Annapurna SIL", serif;
     margin-left: 10px;
 }
+
 
 /* Change display on larger screens */
 @media(min-width:992px){
@@ -161,5 +166,6 @@ footer {
     .projects h3 {
         display: none;
     }
+
 }
 
