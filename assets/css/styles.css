@@ -144,9 +144,11 @@ footer {
     margin: 10px auto;
 }
 
-.projects p {
+.info {
     font-family: "Annapurna SIL", serif;
     margin: auto;
+    text-align: center;
+    padding: 10px;
 }
 
 /* large screen project page */
