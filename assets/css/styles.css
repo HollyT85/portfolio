@@ -155,17 +155,18 @@ footer {
 @media(min-width:992px){
     .projects{
         display: flex;
-        flex-flow: wrap;
+        flex-flow: column;
         align-content: center;
+        background-color: #EFEFEF;
     }
 
     .projects img{
-        max-width: 40vw;
+        max-width: 30vw;
         margin: 10px auto;
     }
 
     .projects h3 {
-        display: none;
+        font-size: 8vh;
     }
 
 }
