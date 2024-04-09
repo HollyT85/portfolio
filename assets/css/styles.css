@@ -133,7 +133,7 @@ footer {
 
 /* Project Page */
 
-.projects{
+.project-info{
     display: flex;
     flex-flow: wrap;
     align-content: center;
@@ -153,11 +153,12 @@ footer {
 
 /* large screen project page */
 @media(min-width:992px){
-    .projects{
-        display: flex;
-        flex-flow: column;
+    .project-info{
+        display: inline-block;
         align-content: center;
         background-color: #EFEFEF;
+        padding: 10px;
+        margin: 10px;
     }
 
     .projects img{
@@ -167,6 +168,12 @@ footer {
 
     .projects h3 {
         font-size: 8vh;
+        text-align: center;
+    }
+
+    .info {
+        display: block;
+        max-width: 30vw;
     }
 
 }
