@@ -144,6 +144,7 @@ footer {
 .projects img{
     max-width: 80vw;
     margin: 10px auto;
+    border-radius: 5%;
 }
 
 .info {
@@ -165,14 +166,14 @@ footer {
         display: inline-block;
         align-content: center;
         background-color: #EFEFEF;
-        padding: 10px;
-        margin: 10px ;
         height: 85vh;
         width: 30vw;
     }
 
     .project-info img{
         width: 30vw;
+        padding: 10px;
+        border-radius: 5%;
     }
 
     .project-info h3 {
