@@ -137,6 +137,8 @@ footer {
     display: flex;
     flex-flow: wrap;
     align-content: center;
+    background-color: #EFEFEF;
+    margin: 10px;
 }
 
 .projects img{
@@ -154,8 +156,9 @@ footer {
 /* large screen project page */
 @media(min-width:992px){
 
-    .projects{
-        margin-top: 20px;
+    .projects {
+        width: 100vw;
+        text-align: center;
     }
 
     .project-info{
@@ -163,24 +166,19 @@ footer {
         align-content: center;
         background-color: #EFEFEF;
         padding: 10px;
-        margin: 10px;
+        margin: 10px ;
         height: 85vh;
         width: 30vw;
     }
 
-    .projects img{
-        max-width: 30vw;
-        margin: 10px auto;
+    .project-info img{
+        width: 30vw;
     }
 
-    .projects h3 {
-        font-size: 8vh;
+    .project-info h3 {
+        font-size: 6vh;
         text-align: center;
         overflow-y: hidden;
-    }
-
-    .info {
-        max-width: 30vw;
     }
 
 }
