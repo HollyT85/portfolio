@@ -153,12 +153,18 @@ footer {
 
 /* large screen project page */
 @media(min-width:992px){
+
+    .projects{
+        margin-top: 20px;
+    }
+
     .project-info{
         display: inline-block;
         align-content: center;
         background-color: #EFEFEF;
         padding: 10px;
         margin: 10px;
+        height: 85vh;
     }
 
     .projects img{
@@ -169,10 +175,10 @@ footer {
     .projects h3 {
         font-size: 8vh;
         text-align: center;
+        overflow-y: hidden;
     }
 
     .info {
-        display: block;
         max-width: 30vw;
     }
 
