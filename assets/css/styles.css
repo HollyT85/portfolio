@@ -193,6 +193,12 @@ footer {
     display: inline-block;
 }
 
+.contact {
+    border: 2px #66661F solid;
+    padding: 10px;
+    border-radius: 10px;
+}
+
 .contact-image-container img{
     background-repeat: no-repeat;
     background-size: cover;
