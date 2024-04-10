@@ -109,11 +109,12 @@ i {
     }
 
     .profile-image{
-        height:40vh;
+        height:20vh;
         width: 20vw;
         border-radius: 50%;
         float: left;
     }
+
 }
 
 /* about */
@@ -129,6 +130,16 @@ i {
     height:40vh;
     width: 70vw;
     border-radius: 50%;
+    border:1px solid #66661F;
+}
+
+@media(min-width:992px){
+    .profile-image{
+        height:40vh;
+        width: 20vw;
+        border-radius: 50%;
+        float: left;
+    }
 }
 
 /* Skills */
