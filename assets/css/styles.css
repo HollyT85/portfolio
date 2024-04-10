@@ -186,6 +186,22 @@ footer {
 
 /* Contact Page */
 
+.contact-image-container {
+    height: 90vh;
+    width: 100vw;
+    position: relative;
+    display: inline-block;
+}
+
+.contact-image-container img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    width: 100vw;
+    display: block;
+}
+
 .contact-form {
     margin: auto;
     width: 80vw;
@@ -199,5 +215,14 @@ footer {
 @media(min-width: 992px) {
     .contact-form {
         width: 50vw;
+    }
+
+    .contact-image-container img{
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        width: 100vw;
+        display: block;
     }
 }

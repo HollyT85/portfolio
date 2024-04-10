@@ -15,3 +15,5 @@ Photo by Dominika Roseclay: https://www.pexels.com/photo/close-up-photo-of-three
 Photo by Ann poan: https://www.pexels.com/photo/green-tender-eucalyptus-branch-in-white-vase-5797937/
 
 Photo by Anete Lusina: https://www.pexels.com/photo/green-plant-branch-with-thin-stems-on-white-background-4792352/
+
+Photo by Min An: https://www.pexels.com/photo/close-up-photo-of-leaves-1599969/
