@@ -184,3 +184,20 @@ footer {
 
 }
 
+/* Contact Page */
+
+.contact-form {
+    margin: auto;
+    width: 80vw;
+}
+
+.contact-heading {
+    text-align: center;
+    color:#66661F;
+}
+
+@media(min-width: 992px) {
+    .contact-form {
+        width: 50vw;
+    }
+}

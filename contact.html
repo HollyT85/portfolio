@@ -63,23 +63,28 @@
 
     <!-- Heading and background image -->
     <div class="image-container">
-        <img src="assets/images/topleaves.jpg" alt="succulent plant on a white background">
+        <img src="assets/images/greencacti.jpg" alt="succulent plant on a white background">
 
         <div class="headings">
-            <h1>
-                Contact
+            <h1 class="contact-heading">
+                Get In Touch
             </h1>
+
+            <div class="contact">
+                <form class="contact-form" id="contact" onsubmit="">
+                    <input type="text" class="form-control mb-2" name="name" id="name" placeholder="Name" required>
+                    <input type="email" class="form-control mb-2" name="email" id="email" placeholder="Email Address"
+                        required>
+                    <textarea rows="10" class="form-control mb-2" name="message" id="message"
+                        placeholder="Enter your message" required></textarea>
+                        <button type="submit" class="btn btn-secondary mb-2">
+                            Send
+                        </button>
+                </form>
+            </div>
 
         </div>
 
-    </div>
-
-    <div class="contact">
-        <form id="contact" onsubmit="">
-            <input type="text" name="name" id="name" placeholder="Name" required>
-            <input type="email" name="email" id="email" placeholder="Email Address" required>
-            <textarea rows="10" name="message" id="message" placeholder="Enter your message" required></textarea>
-        </form>
     </div>
 
     <!-- linkedin / github links -->
