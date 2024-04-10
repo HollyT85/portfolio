@@ -212,6 +212,10 @@ footer {
     color:#66661F;
 }
 
+.send-button{
+    background-color: #66661F;
+}
+
 @media(min-width: 992px) {
     .contact-form {
         width: 50vw;
