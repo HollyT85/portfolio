@@ -15,6 +15,10 @@ a:hover {
     color:#66661F;
 }
 
+h3 {
+    overflow-y: hidden;
+}
+
 /* Background image */
 
 .image-container {
@@ -103,6 +107,13 @@ i {
     .category-headings h2 {
         font-size: 4vw;
     }
+
+    .profile-image{
+        height:40vh;
+        width: 20vw;
+        border-radius: 50%;
+        float: left;
+    }
 }
 
 /* about */
@@ -110,6 +121,14 @@ i {
     background-color: #EFEFEF;
     text-align: center;
     font-family: "Annapurna SIL", serif;
+    width: 100vw;
+    padding: 20px;
+}
+
+.profile-image{
+    height:40vh;
+    width: 70vw;
+    border-radius: 50%;
 }
 
 /* Skills */
