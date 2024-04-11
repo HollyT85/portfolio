@@ -87,6 +87,10 @@ h1 {
     margin: 5px auto;
 }
 
+.project-heading {
+    color: black;
+}
+
 /* Icons and nav links */
 
 i {
