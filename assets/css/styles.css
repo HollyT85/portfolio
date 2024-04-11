@@ -93,12 +93,22 @@ i {
     margin: 10px 20px;
     color: black;
     overflow: hidden;
+    font-size: 3vh;
+}
+
+i:hover{
+    color: #66661F !important;
 }
 
 .nav-link {
     color: black !important;
     font-family: "Annapurna SIL", serif;
     margin-left: 10px;
+    font-size: 3vh;
+}
+
+.nav-link:hover {
+    color:#66661F !important;
 }
 
 
