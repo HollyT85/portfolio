@@ -69,9 +69,9 @@
             <h1 class="contact-heading">
                 Get In Touch
             </h1>
-
+            <!-- contact form -->
             <div class="contact">
-                <form class="contact-form" id="contact-form">
+                <form class="contact-form" id="contact-form" onsubmit="return sendEmail(this);">
                     <input type="text" class="form-control mb-2" name="name" id="name" placeholder="Name" required>
                     <input type="email" class="form-control mb-2" name="email" id="email" placeholder="Email Address"
                         required>
@@ -121,7 +121,13 @@
 
     <!-- EmailJS -->
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
-    
+    <script>
+        (function () {
+            emailjs.init({
+                publicKey: "3SdLLywpyVo2KDF-s",
+            });
+        })();
+    </script>
 
 
     <!--Local-->
