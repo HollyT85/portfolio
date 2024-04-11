@@ -66,12 +66,12 @@
         <img src="assets/images/plantleaves.jpg" alt="succulent plant on a white background">
 
         <div class="headings">
-            <h1 class="contact-heading">
+            <h1 class="contact-heading" id="contact-heading">
                 Get In Touch
             </h1>
 
             <!-- contact form -->
-            <div class="contact">
+            <div class="contact" id="contact">
                 <form class="contact-form" id="contact-form" onsubmit="return sendEmail(this);">
                     <input type="text" class="form-control mb-2" name="name" id="name" placeholder="Name" required>
                     <input type="email" class="form-control mb-2" name="email" id="email" placeholder="Email Address"
@@ -86,8 +86,13 @@
 
             <!-- Email sent successfully -->
 
-            <div class="success">
+            <div class="success hide" id="success">
                 Email sent. thank you
+            </div>
+
+            <!-- Email not sent -->
+            <div class="fail hide" id="fail">
+                Email not sent, try again
             </div>
 
         </div>
