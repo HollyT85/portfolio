@@ -71,15 +71,15 @@
             </h1>
 
             <div class="contact">
-                <form class="contact-form" id="contact" onsubmit="">
+                <form class="contact-form" id="contact-form">
                     <input type="text" class="form-control mb-2" name="name" id="name" placeholder="Name" required>
                     <input type="email" class="form-control mb-2" name="email" id="email" placeholder="Email Address"
                         required>
                     <textarea rows="10" class="form-control mb-2" name="message" id="message"
                         placeholder="Enter your message" required></textarea>
-                        <button type="submit" class=" send-button btn btn-secondary mb-2">
-                            Send
-                        </button>
+                    <button type="submit" class=" send-button btn btn-secondary mb-2">
+                        Send
+                    </button>
                 </form>
             </div>
 
@@ -118,6 +118,11 @@
 
     <!--JQuery-->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- EmailJS -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    
+
 
     <!--Local-->
     <script src="assets/js/script.js"></script>
