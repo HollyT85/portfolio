@@ -73,10 +73,10 @@
             <!-- contact form -->
             <div class="contact" id="contact">
                 <form class="contact-form" id="contact-form" onsubmit="return sendEmail(this);">
-                    <input type="text" class="form-control mb-2" name="name" id="name" placeholder="Name" required>
-                    <input type="email" class="form-control mb-2" name="email" id="email" placeholder="Email Address"
+                    <input type="text" aria-label="name" class="form-control mb-2" name="name" id="name" placeholder="Name" required>
+                    <input type="email" aria-label="email" class="form-control mb-2" name="email" id="email" placeholder="Email Address"
                         required>
-                    <textarea rows="10" class="form-control mb-2" name="message" id="message"
+                    <textarea rows="10" aria-label="message" class="form-control mb-2" name="message" id="message"
                         placeholder="Enter your message" required></textarea>
                     <button type="submit" class=" send-button btn btn-secondary mb-2">
                         Send
