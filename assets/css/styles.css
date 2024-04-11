@@ -35,6 +35,12 @@ h3 {
     display: block;
 }
 
+/* hide class for JS */
+
+.hide {
+    display: none;
+}
+
 /* headings */
 
 .headings {
