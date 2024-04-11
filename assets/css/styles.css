@@ -128,13 +128,6 @@ i:hover{
         font-size: 4vw;
     }
 
-    .profile-image{
-        height:20vh;
-        width: 20vw;
-        border-radius: 50%;
-        float: left;
-    }
-
 }
 
 /* about */
@@ -151,6 +144,7 @@ i:hover{
     width: 75vw;
     border-radius: 50%;
     border:1px solid #66661F;
+    margin-bottom: 10px;
 }
 
 
@@ -161,6 +155,11 @@ i:hover{
         border-radius: 50%;
         float: left;
     }
+
+    .about-me-info {
+        width: 55vw;
+    }
+    
 }
 
 /* Skills */
